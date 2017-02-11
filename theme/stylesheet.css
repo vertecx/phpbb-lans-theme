@@ -1,0 +1,514 @@
+/*
+--------------------------------------------------------------
+Colours and backgrounds for common.css
+-------------------------------------------------------------- */
+
+html, body {
+	color: #FFF;
+	background-color: #000;
+}
+
+h1, h2, h3 {
+	color: #FFF;
+}
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for links.css
+-------------------------------------------------------------- */
+
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+	color: #DBDBDB;
+	text-decoration: underline;
+}
+
+/* Links on gradient backgrounds */
+.forumbg .header a:hover, .forabg .header a:hover, th a:hover {
+	color: #DBDBDB;
+}
+
+/* Post body links */
+.postlink {
+	border: none;
+	color: #FFF;
+	text-decoration: underline;
+}
+
+.postlink:visited {
+	color: #FFF;
+}
+
+.postlink:hover {
+	background-color: transparent;
+	color: #C0C0C0;
+}
+
+/* Arrow links  */
+.arrow-left:hover, .arrow-right:hover {
+	color: #DBDBDB;
+	text-decoration: underline;
+}
+
+/* Round cornered boxes and backgrounds
+---------------------------------------- */
+
+.wrap {
+	background-color: #000;
+	border: none;
+}
+
+.headerbar {
+	background-color: transparent;
+	background-image: none;
+	color: #FFF;
+}
+
+.forabg, .forumbg {
+    background-color: #454545;
+    background-image: none;
+    border: 2px solid #DBDBDB;
+}
+
+.navbar {
+	background-color: #454545;
+	border: 2px solid #DBDBDB;
+}
+
+.panel {
+	color: #FFF;
+	background-color: #454545;
+	border: 2px solid #DBDBDB;
+}
+
+.post:target .content {
+	color: #FFF;
+}
+
+.post:target h3 a {
+	color: #FFF;
+}
+
+.bg1 {
+	background-color: #454545;
+}
+
+table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
+	background-color: #454545;
+}
+
+.bg2 {
+	background-color: #606060;
+}
+
+table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
+	background-color: #606060;
+}
+
+tr.bg3 {
+	background-color: #808080;
+}
+
+.site_logo {
+	background-image: url("./images/site_logo.gif");
+	width: 290px;
+	height: 100px;
+}
+
+/* Horizontal lists
+----------------------------------------*/
+
+ul.navlinks {
+	border-top-color: #FFFFFF;
+}
+
+/* Table styles
+----------------------------------------*/
+
+table.table1 tbody tr:hover, table.table1 tbody tr.hover {
+	background-color: #303030;
+}
+
+table.table1 td {
+	color: #FFF;
+}
+
+/* Misc layout styles
+---------------------------------------- */
+dl.details dt {
+	color: #FFF;
+}
+
+dl.details dd {
+	color: #FFF;
+}
+
+/* Icon styles
+---------------------------------------- */
+.icon.icon-blue, a:hover .icon.icon-blue {
+	color: #FFF;
+}
+
+/* Jumpbox */
+
+.jumpbox-cat-link {
+	background-color: #454545;
+}
+
+.jumpbox-cat-link:hover {
+	background-color: #808080;
+}
+
+.jumpbox-forum-link {
+	background-color: #606060;
+}
+
+.jumpbox-forum-link:hover {
+	background-color: #808080;
+}
+
+.jumpbox-sub-link {
+	background-color: #606060;
+}
+
+.jumpbox-sub-link:hover {
+	background-color: #808080;
+}
+
+/* Miscellaneous styles
+---------------------------------------- */
+
+.copyright {
+	color: #C0C0C0;
+}
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for content.css
+-------------------------------------------------------------- */
+
+ul.forums {
+	background-color: #606060;
+	background-image: none;
+	border: 1px solid #dbdbdb;
+}
+
+ul.topiclist li {
+	color: #FFF;
+}
+
+ul.topics {
+	border-bottom: 1px solid #FFF;
+}
+
+ul.topiclist dd {
+	border-left: none;
+}
+
+li.row {
+	border-bottom: none;
+}
+
+li.row:hover {
+	background-color: #707070;
+}
+
+li.row strong {
+	color: #FFF;
+}
+
+li.header dt, li.header dd {
+	color: #FFF;
+}
+
+/* Post body styles
+----------------------------------------*/
+.postbody {
+	color: #FFF;
+}
+
+/* Content container styles
+----------------------------------------*/
+.content {
+	color: #FFF;
+}
+
+.content h2, .panel h2 {
+	color: #FFF;
+}
+
+dl.faq dt {
+	color: #FFF;
+}
+
+/* Post signature */
+.signature {
+	color: #FFF;
+}
+
+/* BB Code styles
+----------------------------------------*/
+/* Quote block */
+blockquote {
+	background-color: #8F8F8F;
+}
+
+blockquote blockquote {
+	/* Nested quotes */
+	background-color: #6F6F6F;
+}
+
+blockquote blockquote blockquote {
+	/* Nested quotes */
+	background-color: #4F4F4F;
+}
+
+/* Code block */
+.codebox {
+	background-color: #808080;
+}
+
+.codebox code {
+	color: #FFF;
+}
+
+/* Attachments
+----------------------------------------*/
+.attachbox {
+	background-color: #000;
+	color:  #FFF;
+}
+
+/* Post poll styles
+----------------------------------------*/
+
+fieldset.polls dl {
+	color: #FFF;
+}
+
+fieldset.polls dl.voted {
+	color: #FFF;
+}
+
+/* Poster profile block
+----------------------------------------*/
+.postprofile {
+	color: #FFF;
+}
+
+.postprofile strong {
+	color: #8F8F8F;
+}
+
+.online {
+	background-image: url("./en/icon_user_online.gif");
+}
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for buttons.css
+-------------------------------------------------------------- */
+.button {
+	color: #8F8F8F;
+}
+
+.button:hover,
+.button:focus {
+	border-color: #8F8F8F;
+	color: #404040;
+}
+
+.button-secondary:focus,
+.button-secondary:hover,
+.button:focus .icon,
+.button:hover .icon {
+	color: #404040;
+}
+
+/* Pagination
+---------------------------------------- */
+
+.pagination li.ellipsis span {
+	color:	#FFF;
+}
+
+.pagination li.active span {
+	background: #606060;
+	border-color: #DBDBDB;
+}
+
+.pagination li a:hover, .pagination li a:hover .icon, .pagination .dropdown-visible a.dropdown-trigger, .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
+	background: #A0A0A0;
+	border-color: #DBDBDB;
+}
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for cp.css
+-------------------------------------------------------------- */
+
+/* Main CP box
+----------------------------------------*/
+
+.panel-container .panel li.header dd, .panel-container .panel li.header dt {
+	color: #FFF;
+}
+
+.panel-container table.table1 thead th {
+	color: #FFF;
+	border-bottom-color: #DBDBDB;
+}
+
+.cp-main .pm-message {
+	background-color: transparent;
+}
+
+/* CP tabbed menu
+----------------------------------------*/
+.tabs .tab > a {
+	background: #454545;
+	color: #FFF;
+}
+
+.tabs .tab > a:hover {
+	background: #606060;
+	color: #FFF;
+}
+
+.tabs .activetab > a,
+.tabs .activetab > a:hover {
+	background-color: #808080;
+	background-image: none;
+}
+
+.tabs .activetab > a:hover {
+	color: #FFF;
+}
+
+/* UCP navigation menu
+----------------------------------------*/
+
+/* Link styles for the sub-section links */
+.navigation a {
+	color: #FFF;
+	background: #606060;
+}
+
+.navigation a:hover {
+	background: #8F8F8F;
+	color: #FFF;
+}
+
+.navigation .active-subsection a {
+	background: #8F8F8F;
+	color: #FFF;
+}
+
+.navigation .active-subsection a:hover {
+	color: #FFF;
+}
+
+@media only screen and (max-width: 900px), only screen and (max-device-width: 900px)
+{
+	#navigation a, .rtl #navigation a {
+		background: #606060;
+	}
+}
+
+/* Preferences pane layout
+----------------------------------------*/
+.panel-container h2 {
+	color: #FFF;
+}
+
+.panel-container .panel {
+	background-color: transparent;
+}
+
+.cp-main .pm {
+	background-color: transparent;
+}
+
+/* Friends list */
+.cp-mini {
+	background-color: #606060;
+}
+
+dl.mini dt {
+	color: #FFF;
+}
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for forms.css
+-------------------------------------------------------------- */
+
+/* General form styles
+----------------------------------------*/
+label {
+	color: #FFF;
+}
+
+/* Definition list layout for forms
+---------------------------------------- */
+dd label {
+	color: #FFF;
+}
+
+/* Hover effects */
+fieldset dl:hover dt label {
+	color: #FFF;
+}
+
+/* Input field styles
+---------------------------------------- */
+.inputbox {
+	border-color: #DBDBDB;
+}
+
+.inputbox:hover {
+	border-color: #DBDBDB;
+}
+
+.inputbox:focus {
+	border-color: #DBDBDB;
+}
+
+/* Form button styles
+---------------------------------------- */
+
+/* Hover states */
+a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, input.button3:hover {
+	border-color: #606060;
+	color: #606060;
+}
+
+/* jQuery popups
+---------------------------------------- */
+.phpbb_alert {
+	background-color: #454545;
+}
+
+.dropdown-extended ul li {
+	background-color: #606060;
+}
+
+.dropdown-extended ul li:hover {
+	background-color: #707070;
+	color: #FFF;
+}
+
+.dropdown-extended .header {
+	background-color: #454545;
+	background-image: none;
+	color: #FFF;
+	text-shadow: none;
+}
+
+.dropdown .dropdown-contents {
+	background-color: #454545;
+}
